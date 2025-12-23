@@ -20,9 +20,6 @@ An AI-powered website chat assistant that represents a person professionally, an
 - [Tool Functions](#tool-functions)
 - [Security Notes](#security-notes)
 - [Limitations](#limitations)
-- [Roadmap](#roadmap)
-- [License](#license)
-
 ---
 
 ## Overview
@@ -285,19 +282,6 @@ Tool schemas are defined as JSON files in the `tools/` directory.
 - Designed for single-persona use (one agent per instance)
 - Depends on OpenAI API availability
 - Limited to information in resume and description
-
----
-
-## Roadmap
-
-- [ ] Add persistent database for contacts and questions
-- [ ] Support multiple resume formats (DOCX, TXT)
-- [ ] Add analytics dashboard
-- [ ] Implement conversation memory across sessions
-- [ ] Add multi-language support
-- [ ] Create deployment guides (Docker, cloud platforms)
-- [ ] Add automated testing
-- [ ] Support for multiple personas/agents
 
 ---
 
